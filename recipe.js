@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Oils and Fats
         { item: "Oil", "quantity": 2.1, "unit": "ml" }
             ],
-            steps: {
+            steps: { 
                 step1: "Heat a small amount of oil in a pan. Add urad dal, red chilli, jeera, curry leaves, and fry until dal turns golden brown. Remove and set aside.",
                 step2: "In the same pan, add sliced onions and sauté until they turn translucent. Add chopped tomatoes, salt, and cook until tomatoes turn soft.",
                 step3: "Allow the mixture to cool slightly. Grind together the fried dal mixture, cooked onion-tomato mixture, coconut, tamarind, coriander, and mint leaves to a smooth paste. Adjust seasoning as per taste. Serve onion chutney with dosa, idli, or any South Indian breakfast dish."
@@ -191,37 +191,38 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://minimalistbaker.com/wp-content/uploads/2016/02/EASY-Chana-Masala-SQUARE.jpg',
             ingredients: [
                 // Vegetables
-                { item: "Onion", "quantity": 9.6, "unit": "Gram" },
-                { item: "Tomato", "quantity": 11.5, "unit": "Gram" },
-                { item: "Coriander leaves", "quantity": 0.28, "unit": "Gram" },
-                { item: "Ginger", "quantity": 0.38, "unit": "Gram" },
-                { item: "Garlic", "quantity": 0.48, "unit": "Gram" },
-                { item: "Fenugreek Leaves", "quantity": 0.038, "unit": "Gram" },
-        
+                { item: "Onion", "quantity": 9.09, "unit": "Gram" },
+                { item: "Tomato", "quantity": 10.91, "unit": "Gram" },
+                { item: "Coriander Leaves", "quantity": 0.27, "unit": "Gram" },
+                
                 // Legumes
-                { item: "Chickpeas", "quantity": 23, "unit": "Gram" },
-        
+                { item: "Chickpeas", "quantity": 21.82, "unit": "Gram" },
+                
                 // Oils and Fats
-                { item: "Groundnut Oil", "quantity": 2.8, "unit": "ML" },
-                { item: "Ghee", "quantity": 0.38, "unit": "ml" },
-        
+                { item: "Groundnut Oil", "quantity": 2.73, "unit": "ml" },
+                { item: "Ghee", "quantity": 0.364, "unit": "ml" },
+                
                 // Spices and Condiments
-                { item: "Cumin seeds", "quantity": 0.92, "unit": "Gram" },
-                { item: "Pepper", "quantity": 0.038, "unit": "Gram" },
-                { item: "Cinnamon", "quantity": 0.038, "unit": "Gram" },
-                { item: "Star anise", "quantity": 0.019, "unit": "Gram" },
+                { item: "Cumin seeds", "quantity": 0.18, "unit": "Gram" },
+                { item: "Pepper", "quantity": 0.036, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 0.036, "unit": "Gram" },
+                { item: "Star Anise", "quantity": 0.018, "unit": "Gram" },
                 { item: "Clove", "quantity": 0.009, "unit": "Gram" },
-                { item: "Fennel seeds", "quantity": 0.038, "unit": "Gram" },
-                { item: "Mustard", "quantity": 0.038, "unit": "Gram" },
+                { item: "Fennel seeds", "quantity": 0.036, "unit": "Gram" },
+                { item: "Mustard", "quantity": 0.036, "unit": "Gram" },
                 { item: "Cardamom", "quantity": 0.005, "unit": "Gram" },
                 { item: "Stone Flower", "quantity": 0.005, "unit": "Gram" },
-                { item: "Chana masala Powder", "quantity": 0.57, "unit": "Gram" },
-                { item: "Turmeric Powder", "quantity": 0.096, "unit": "Gram" },
-                { item: "Salt", "quantity": 1.15, "unit": "Gram" },
-                { item: "Baby Cashew", "quantity": 0.38, "unit": "Gram" },
-                { item: "Kapok buds", "quantity": 0.038, "unit": "Gram" },
-                { item: "Dried Fenugreek Leaves", "quantity": 0.019, "unit": "ml" },
-                { item: "Curd", "quantity": 1.92, "unit": "Gram" }
+                { item: "Chana Masala Powder", "quantity": 0.545, "unit": "Gram" },
+                { item: "Turmeric Powder", "quantity": 0.091, "unit": "Gram" },
+                { item: "Salt", "quantity": 1.09, "unit": "Gram" },
+                
+                // Additional Ingredients
+                { item: "Baby Cashew", "quantity": "Assumed value needed", "unit": "Gram" },
+                { item: "Kapok Buds", "quantity": 0.036, "unit": "Gram" },
+                { item: "Dried Fenugreek Leaves", "quantity": 0.018, "unit": "Gram" },
+                { item: "Ginger", "quantity": 0.364, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.455, "unit": "Gram" },
+                { item: "Curd", "quantity": 1.82, "unit": "Gram" }
             ],
             steps:  {
                 step1: "Heat groundnut oil and ghee in a pan. Add cumin seeds, pepper, cinnamon, star anise, clove, fennel seeds, mustard, cardamom, and stone flower. Sauté until fragrant.",
@@ -285,28 +286,28 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-01-carrot-soup%2Fcarrot-soup-084',
             ingredients: [
                     // Spices and Condiments
-        { item: "Pepper", "quantity": 0.036, "unit": "Gram" },
-        { item: "Cinnamon", "quantity": 0.018, "unit": "Gram" },
-        { item: "Fennel seeds", "quantity": 0.027, "unit": "Gram" },
-        { item: "Coriander leaves", "quantity": 0.036, "unit": "Gram" },
-        { item: "Cumin seeds", "quantity": 0.036, "unit": "Gram" },
-        { item: "Bay leaf", "quantity": 0.009, "unit": "Gram" },
-
-        // Vegetables
-        { item: "Carrot", "quantity": 7.2, "unit": "Gram" },
-        { item: "Onion", "quantity": 0.9, "unit": "Gram" },
-        { item: "Tomato", "quantity": 0.91, "unit": "Gram" },
-
-        // Others
-        { item: "Red Chilli", "quantity": 0.036, "unit": "Gram" },
-        { item: "Coconut oil", "quantity": 0.54, "unit": "ml" },
-        { item: "Coconut", "quantity": 1.8, "unit": "Gram" },
-        { item: "Lemon", "quantity": 0.09, "unit": "Gram" },
-        { item: "Salt", "quantity": 0.3, "unit": "Gram" },
-        { item: "Water", "quantity": 18.3, "unit": "ml" }
+                    { item: "Pepper", "quantity": 0.036, "unit": "Gram" },
+                    { item: "Cinnamon", "quantity": 0.018, "unit": "Gram" },
+                    { item: "Fennel Seeds", "quantity": 0.027, "unit": "Gram" },
+                    { item: "Coriander", "quantity": 0.036, "unit": "Gram" },
+                    { item: "Cumin Seeds", "quantity": 0.036, "unit": "Gram" },
+                    { item: "Bay Leaf", "quantity": 0.009, "unit": "Gram" },
+            
+                    // Vegetables
+                    { item: "Carrot", "quantity": 7.27, "unit": "Gram" },
+                    { item: "Onion", "quantity": 0.91, "unit": "Gram" },
+                    { item: "Tomato", "quantity": 0.91, "unit": "Gram" },
+            
+                    // Others
+                    { item: "Red Chilli", "quantity": 0.036, "unit": "Gram" },
+                    { item: "Coconut Oil", "quantity": 0.55, "unit": "ml" },
+                    { item: "Coconut", "quantity": 1.82, "unit": "Gram" },
+                    { item: "Lemon Juice", "quantity": 0.09, "unit": "ml" },
+                    { item: "Salt", "quantity": 0.3, "unit": "Gram" },
+                    { item: "Water", "quantity": 20, "unit": "ml" }
     ],
             steps: {
-                step1: "Heat coconut oil in a pot. Add bay leaf, fennel seeds, and cumin seeds. Sauté until fragrant.",
+                step1: "Heat the coconut oil in a pot over medium heat. Add the bay leaf, fennel seeds, and cumin seeds. Sauté until they release their aroma.",
                 step2: "Add chopped onions, carrots, tomatoes, and red chilli. Sauté until vegetables are softened.",
                 step3: "Pour in enough water to cover the vegetables. Add salt, pepper, and cinnamon. Bring to a boil, then reduce heat and simmer for 15-20 minutes until carrots are tender. Remove bay leaf. Blend the soup until smooth. Serve hot garnished with chopped coriander leaves and a squeeze of lemon juice."
             }
