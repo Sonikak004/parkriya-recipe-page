@@ -97,30 +97,29 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/05/ven-pongal-recipe.jpg',
             ingredients: [
         // Main Ingredients
-        { item: "Rice", "quantity": 50, "unit": "Gram" },
-        { item: "Moong Dal", "quantity": 50, "unit": "Gram" },
+        { item: "Rice", "quantity": 14.7, "unit": "Gram" },
+        { item: "Moong Dal", "quantity": 14.7, "unit": "Gram" },
         
         // Dals 
         
         // Vegetables
-        { item: "Ginger", "quantity": 1.5, "unit": "Gram" },
-        { item: "Green Chilli", "quantity": 0.30, "unit": "Gram" },
-        { item: "Coconut", "quantity": 12.6, "unit": "Gram" },
-        { item: "Curry Leaf", "quantity": 1.4, "unit": "inch" },
+        { item: "Ginger", "quantity": 0.36, "unit": "Gram" },
+        { item: "Green Chilli", "quantity": 0.09, "unit": "Gram" },
+        { item: "Coconut", "quantity": 1.84, "unit": "Gram" },
+        { item: "Curry Leaf", "quantity": 0.09, "unit": "inch" },
         
         // Spices and Condiments
-        { item: "Pepper", "quantity": 0.84, "unit": "Gram" },
-        { item: "Jeera", "quantity": 1.5, "unit": "Gram" },
-        { item: "Turmeric Powder", "quantity": 0.3, "unit": "Gram" },
-        { item: "Asafoetida", "quantity": 0.14, "unit": "Gram" },
-        { item: "Salt", "quantity": 4.4, "unit": "Gram" },
-        { item: "Cashew", "quantity": 2.9, "unit": "Gram" },
+        { item: "Pepper", "quantity": 0.18, "unit": "Gram" },
+        { item: "Jeera", "quantity": 0.36, "unit": "Gram" },
+        { item: "Turmeric Powder", "quantity": 0.02, "unit": "Gram" },
+        { item: "Asafoetida", "quantity": 0.018, "unit": "Gram" },
+        { item: "Salt", "quantity": 1.2, "unit": "Gram" },
+        { item: "Cashew", "quantity": 0.36, "unit": "Gram" },
         
         // Oils and Ghee
-        { item: "Oil", "quantity": 7, "unit": "ml" },
-        { item: "Ghee", "quantity": 4.2, "unit": "Gram" },
+        { item: "Ghee", "quantity": 1.38, "unit": "Gram" },
         // Liquid
-        { item: "Water", "quantity": 0.500, "unit": "ml" }
+        { item: "Water", "quantity": 15.65, "unit": "ml" }
     ],
             steps: {
                 step1: "Wash rice and moong dal together thoroughly. Drain and set aside.",
@@ -156,10 +155,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/onion-chutney-3.jpg',
             ingredients: [
                 { item: "Onion", "quantity": 6.3, "unit": "Gram" },
-        { item: "Tomato", "quantity": 6.3, "unit": "Gram" },
+            { item: "Tomato", "quantity": 6.3, "unit": "Gram" },
         
         // Dals and Legumes
-        { item: "Urad Dal", "quantity": 1.8, "unit": "Gram" },
+             { item: "Urad Dal", "quantity": 1.8, "unit": "Gram" },
         { item: "Fried Gram", "quantity": 1.8, "unit": "Gram" },
         
         // Spices and Condiments
@@ -175,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { item: "Mint Leaves", "quantity": 1, "unit": "Gram" },
         
         // Oils and Fats
-        { item: "Oil", "quantity": 2.1, "unit": "ml" }
+        { item: "Oil", "quantity": 2.18, "unit": "ml" }
             ],
             steps: { 
                 step1: "Heat a small amount of oil in a pan. Add urad dal, red chilli, jeera, curry leaves, and fry until dal turns golden brown. Remove and set aside.",
@@ -238,11 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.indianveggiedelight.com/wp-content/uploads/2020/04/veg-biryani-instant-pot-500x375.jpg',
             ingredients: [
                  // Vegetables
-        { item: "Rice", "quantity": 50.6, "unit": "Gram" },
-        { item: "Onion", "quantity": 12.6, "unit": "Gram" },
-        { item: "Beans", "quantity": 10.8, "unit": "Gram" },
-        { item: "Carrot", "quantity": 10.8, "unit": "Gram" },
-        { item: "Knol Khol", "quantity": 10.8, "unit": "Gram" },
+        { item: "Rice", "quantity": 51, "unit": "Gram" },
+        { item: "Onion", "quantity": 12.7, "unit": "Gram" },
+        { item: "Beans", "quantity": 10.9, "unit": "Gram" },
+        { item: "Carrot", "quantity": 10.9, "unit": "Gram" },
+        { item: "Knol Khol", "quantity": 10.9, "unit": "Gram" },
         { item: "Potato", "quantity": 5.4, "unit": "Gram" },
 
         // Dairy
@@ -338,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { item: "Oil", "quantity": 5.46, "unit": "ml" },
         { item: "Mustard seeds", "quantity": 0.18, "unit": "Gram" },
         { item: "Salt", "quantity": 1.28, "unit": "Gram" },
-        { item: "Turmeric powder", "quantity": 0.02, "unit": "Gram" }
+        { item: "Turmeric powder", "quantity": 0.018, "unit": "Gram" }
     ],
             steps: {
                 step1: "Heat oil in a pan. Add mustard seeds and let them splutter. Add chopped onions, ginger, and garlic. Sauté until onions turn translucent.",
@@ -353,10 +352,10 @@ document.addEventListener('DOMContentLoaded', () => {
             datePosted: 'March 11, 2024',
             image: 'https://static.toiimg.com/thumb/61203720.cms?width=800&height=800&imgsize=670417',
             ingredients: [
-                { item: 'Wheat Flour', quantity: 47.19, unit: 'Gram' },
-                { item: 'Oil', quantity: 3.99, unit: 'ml' },
-                { item: 'Salt', quantity: 0.91, unit: 'Gram' },
-                { item: 'Water', quantity: 30.85, unit: 'ml' },
+                { item: 'Wheat Flour', "quantity": 47.3, "unit": 'Gram' },
+                { item: 'Oil', "quantity": 4.0, "unit": 'ml' },
+                { item: 'Salt', "quantity": 0.91, "unit": 'Gram' },
+                { item: 'Water', "quantity": 30.96, "unit": 'ml' },
             ],
             steps: {
                 step1: "In a mixing bowl, combine wheat flour, salt, and oil. Gradually add water and knead into a smooth and elastic dough. Add more water or flour as needed to achieve the right consistency.",
@@ -372,7 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.indianveggiedelight.com/wp-content/uploads/2018/03/red-coconut-chutney-featured-500x375.jpg',
             ingredients: [
                  // Vegetables
-        { item: "Coconut", "quantity": 1.38, "unit": "Gram" },
+        { item: "Coconut", "quantity": 5.1, "unit": "Gram" },
         { item: "Onion", "quantity": 4.55, "unit": "Gram" },
         { item: "Tomato", "quantity": 6.38, "unit": "Gram" },
 
@@ -402,23 +401,23 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl_sunitha/Karanataka_Style_Goraikai_Kara_Recipe_Cluster_Beans_Chutney_Recipe_.jpg',
             ingredients: [
                 // Vegetables
-                { item: "Beans", "quantity": 8000, "unit": "Gram" },
-                { item: "Coconut", "quantity": 12400, "unit": "Gram" },
-                { item: "Onion", "quantity": 2500, "unit": "Gram" },
+                { item: "Beans", "quantity": 15, "unit": "Gram" },
+                { item: "Coconut", "quantity": 23.3, "unit": "Gram" },
+                { item: "Onion", "quantity": 4.7, "unit": "Gram" },
         
                 // Lentils and Pulses
-                { item: "Urad dal", "quantity": 500, "unit": "Gram" },
-                { item: "Chana dal", "quantity": 500, "unit": "Gram" },
+                { item: "Urad dal", "quantity": 0.94, "unit": "Gram" },
+                { item: "Chana dal", "quantity": 0.94, "unit": "Gram" },
         
                 // Spices and Condiments
-                { item: "Oil", "quantity": 1200, "unit": "ml" },
-                { item: "Salt", "quantity": 330, "unit": "Gram" },
-                { item: "Red chilli", "quantity": 20, "unit": "Gram" },
-                { item: "Curry leaves", "quantity": 100, "unit": "Gram" },
-                { item: "Mustard seeds", "quantity": 80, "unit": "Gram" },
-                { item: "Cumin Seeds", "quantity": 60, "unit": "Gram" },
-                { item: "Green chilli", "quantity": 100, "unit": "Gram" },
-                { item: "Tamarind", "quantity": 130, "unit": "Gram" }
+                { item: "Oil", "quantity": 2.26, "unit": "ml" },
+                { item: "Salt", "quantity": 0.62, "unit": "Gram" },
+                { item: "Red chilli", "quantity": 0.03, "unit": "Gram" },
+                { item: "Curry leaves", "quantity": 0.1, "unit": "Gram" },
+                { item: "Mustard seeds", "quantity": 0.14, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.11, "unit": "Gram" },
+                { item: "Green chilli", "quantity": 0.1, "unit": "Gram" },
+                { item: "Tamarind", "quantity": 0.24, "unit": "Gram" }
             ],
             steps: {
                 step1: "Heat a small amount of oil in a pan. Add mustard seeds, urad dal, red chillies, curry leaves, and sauté until mustard seeds crackle and dal turns golden brown.",
@@ -434,43 +433,43 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.spiceindiaonline.com/wp-content/uploads/2008/05/Kathirikkai-Sadam-3-500x500.jpg',
             ingredients: [
                 // Vegetables
-                { item: "Coconut", quantity: 4.36, unit: "Gram" },
-                { item: "Onion", quantity: 18.18, unit: "Gram" },
-                { item: "Tomato", quantity: 1.82, unit: "Gram" },
+                { item: "Coconut", "quantity": 4.36, "unit": "Gram" },
+                { item: "Onion", "quantity": 18.18, "unit": "Gram" },
+                { item: "Tomato", "quantity": 1.82, "unit": "Gram" },
                 
                 // Lentils and Pulses
-                { item: "Urad dal", quantity: 1.45, unit: "Gram" },
-                { item: "Chana dal", quantity: 1.82, unit: "Gram" },
+                { item: "Urad dal", "quantity": 1.45, "unit": "Gram" },
+                { item: "Chana dal", "quantity": 1.82, "unit": "Gram" },
                 
                 // Spices and Condiments
-                { item: "Rice", quantity: 40, unit: "Gram" },
-                { item: "Jeera rice", quantity: 3.64, unit: "Gram" },
-                { item: "Basmati rice", quantity: 3.64, unit: "Gram" },
-                { item: "Garlic", quantity: 0.73, unit: "Gram" },
-                { item: "Ginger", quantity: 0.73, unit: "Gram" },
-                { item: "Cinnamon", quantity: 27.27, unit: "Gram" },
-                { item: "Cloves", quantity: 0.02, unit: "Gram" },
-                { item: "Cardamom", quantity: 0.02, unit: "Gram" },
-                { item: "Star anise", quantity: 0.03, unit: "Gram" },
-                { item: "Stone flower (kalpasi)", quantity: 0.02, unit: "Gram" },
-                { item: "Fennel seeds", quantity: 0.04, unit: "Gram" },
-                { item: "Coriander seeds", quantity: 0.18, unit: "Gram" },
-                { item: "Cumin seeds", quantity: 0.09, unit: "Gram" },
-                { item: "Mace", quantity: 0.002, unit: "Piece" },
-                { item: "Nutmeg", quantity: 0.005, unit: "Piece" },
-                { item: "Black cardamom", quantity: 0.004, unit: "Piece" },
-                { item: "Bay leaf", quantity: 0.007, unit: "Piece" },
-                { item: "Green chili", quantity: 0.18, unit: "Gram" },
-                { item: "Lemon", quantity: 0.009, unit: "Piece" },
-                { item: "Ghee", quantity: 1.82, unit: "Gram" },
-                { item: "Curd", quantity: 1.82, unit: "Gram" },
-                { item: "Coconut milk", quantity: 1.82, unit: "ml" },
-                { item: "Mint leaves", quantity: 0.2, unit: "Gram" },
-                { item: "Coriander leaves", quantity: 0.2, unit: "Gram" },
-                { item: "Turmeric powder", quantity: 0.03, unit: "Gram" },
-                { item: "Salt", quantity: 1.64, unit: "Gram" },
-                { item: "Water", quantity: 102, unit: "ml" },
-                { item: "Oil", quantity: 9.09, unit: "ml" }
+                { item: "Rice", "quantity": 41.5, "unit": "Gram" },
+                { item: "Jeera rice", "quantity": 3.7, "unit": "Gram" },
+                { item: "Basmati rice", "quantity": 3.7, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.73, "unit": "Gram" },
+                { item: "Ginger", "quantity": 0.73, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 27.27, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.02, "unit": "Gram" },
+                { item: "Cardamom", "quantity": 0.02, "unit": "Gram" },
+                { item: "Star anise", "quantity": 0.03, "unit": "Gram" },
+                { item: "Stone flower (kalpasi)", "quantity": 0.02, "unit": "Gram" },
+                { item: "Fennel seeds", "quantity": 0.04, "unit": "Gram" },
+                { item: "Coriander seeds", "quantity": 0.18, "unit": "Gram" },
+                { item: "Cumin seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Mace", "quantity": 0.002, "unit": "Piece" },
+                { item: "Nutmeg", "quantity": 0.005, "unit": "Piece" },
+                { item: "Black cardamom", "quantity": 0.004, "unit": "Piece" },
+                { item: "Bay leaf", "quantity": 0.007, "unit": "Piece" },
+                { item: "Green chili", "quantity": 0.18, "unit": "Gram" },
+                { item: "Lemon", "quantity": 0.009, "unit": "Piece" },
+                { item: "Ghee", "quantity": 1.82, "unit": "Gram" },
+                { item: "Curd", "quantity": 1.82, "unit": "Gram" },
+                { item: "Coconut milk", "quantity": 1.82, "unit": "ml" },
+                { item: "Mint leaves", "quantity": 0.2, "unit": "Gram" },
+                { item: "Coriander leaves", "quantity": 0.2, "unit": "Gram" },
+                { item: "Turmeric powder", "quantity": 0.03, "unit": "Gram" },
+                { item: "Salt", "quantity": 1.64, "unit": "Gram" },
+                { item: "Water", "quantity": 105.6, "unit": "ml" },
+                { item: "Oil", "quantity": 9.4, "unit": "ml" }
             ],
             steps: {
                  step1: "Wash and soak the rice for 30 minutes. Heat oil and ghee in a pan, add whole spices (cinnamon, cloves, cardamom, star anise, stone flower) and sauté until fragrant. Add sliced onions, green chili, ginger, and garlic paste, and sauté until the onions turn golden brown." ,
@@ -486,40 +485,40 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.vidhyashomecooking.com/wp-content/uploads/2022/05/VadacurryRecipe.jpg',
             ingredients: [
                 // Vada Curry
-                { item: "Onion", quantity: 9.09, unit: "Gram" },
-                { item: "Tomato", quantity: 7.27, unit: "Gram" },
-                { item: "Coriander seeds", quantity: 0.55, unit: "Gram" },
-                { item: "Cumin seeds", quantity: 0.18, unit: "Gram" },
-                { item: "Black pepper", quantity: 0.02, unit: "Gram" },
-                { item: "Fenugreek seeds", quantity: 0.02, unit: "Gram" },
-                { item: "Black cardamom", quantity: 0.36, unit: "Gram" },
-                { item: "Fried gram", quantity: 0.45, unit: "Gram" },
-                { item: "Red chilies", quantity: 0.22, unit: "Gram" },
-                { item: "Cinnamon", quantity: 0.02, unit: "Gram" },
-                { item: "Cloves", quantity: 0.02, unit: "Gram" },
-                { item: "Green cardamom", quantity: 0.02, unit: "Gram" },
-                { item: "Stone flower", quantity: 0.01, unit: "Gram" },
-                { item: "Star anise", quantity: 0.02, unit: "Gram" },
-                { item: "Coconut", quantity: 3.27, unit: "Gram" },
-                { item: "Salt", quantity: 0.77, unit: "Gram" },
-                { item: "Chana dal", quantity: 0.36, unit: "Gram" },
-                { item: "Urad dal", quantity: 0.36, unit: "Gram" },
-                { item: "Curry leaves", quantity: 0.18, unit: "Gram" },
-                { item: "Fennel seeds", quantity: 0.03, unit: "Gram" },
-                { item: "Oil", quantity: 1.82, unit: "ml" },
-                { item: "Water", quantity: 100, unit: "ml" },
+                { item: "Onion", "quantity": 9.2, "unit": "Gram" },
+                { item: "Tomato", "quantity": 7.38, "unit": "Gram" },
+                { item: "Coriander seeds", "quantity": 0.55, "unit": "Gram" },
+                { item: "Cumin seeds", "quantity": 0.18, "unit": "Gram" },
+                { item: "Black pepper", "quantity": 0.02, "unit": "Gram" },
+                { item: "Fenugreek seeds", "quantity": 0.02, "unit": "Gram" },
+                { item: "Black cardamom", "quantity": 0.36, "unit": "Gram" },
+                { item: "Fried gram", "quantity": 0.45, "unit": "Gram" },
+                { item: "Red chilies", "quantity": 0.22, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 0.02, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.02, "unit": "Gram" },
+                { item: "Green cardamom", "quantity": 0.02, "unit": "Gram" },
+                { item: "Stone flower", "quantity": 0.01, "unit": "Gram" },
+                { item: "Star anise", "quantity": 0.02, "unit": "Gram" },
+                { item: "Coconut", "quantity": 3.27, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.77, "unit": "Gram" },
+                { item: "Chana dal", "quantity": 0.36, "unit": "Gram" },
+                { item: "Urad dal", "quantity": 0.36, "unit": "Gram" },
+                { item: "Curry leaves", "quantity": 0.18, "unit": "Gram" },
+                { item: "Fennel seeds", "quantity": 0.03, "unit": "Gram" },
+                { item: "Oil", "quantity": 1.84, "unit": "ml" },
+                { item: "Water", "quantity": 101.4, "unit": "ml" },
         
                 // Vada
-                { item: "Oil", quantity: 18.18, unit: "ml" },
-                { item: "Chana dal", quantity: 9.09, unit: "Gram" },
-                { item: "Onion", quantity: 7.27, unit: "Gram" },
-                { item: "Cinnamon", quantity: 0.01, unit: "Gram" },
-                { item: "Fennel seeds", quantity: 0.02, unit: "Gram" },
-                { item: "Salt", quantity: 0.27, unit: "Gram" },
-                { item: "Curry leaves", quantity: 0.18, unit: "Gram" },
-                { item: "Ginger", quantity: 0.18, unit: "Gram" },
-                { item: "Garlic", quantity: 0.18, unit: "Gram" },
-                { item: "Green chili", quantity: 0.02, unit: "Gram" }
+                { item: "Oil for vada", "quantity": 18.4, "unit": "ml" },
+                { item: "Chana dal", "quantity": 9.09, "unit": "Gram" },
+                { item: "Onion", "quantity": 7.27, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 0.01, "unit": "Gram" },
+                { item: "Fennel seeds", "quantity": 0.02, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.27, "unit": "Gram" },
+                { item: "Curry leaves", "quantity": 0.18, "unit": "Gram" },
+                { item: "Ginger", "quantity": 0.18, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.18, "unit": "Gram" },
+                { item: "Green chili", "quantity": 0.02, "unit": "Gram" }
             ],
             steps: {
                 
@@ -541,14 +540,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://images.healthshots.com/healthshots/en/uploads/2023/08/25160403/jaggery-tea.jpg',
             ingredients: [
                 // Tea Ingredients for 1 Person
-                { item: "Tea powder", quantity: 3.6, unit: "Gram" },
-                { item: "Jaggery powder", quantity: 21.4, unit: "Gram" },
-                { item: "Ginger", quantity: 3.4, unit: "Gram" },
-                { item: "Cardamom", quantity: 0.26, unit: "Gram" },
-                { item: "Black pepper", quantity: 0.17, unit: "Gram" },
-                { item: "Cloves", quantity: 0.17, unit: "Gram" },
-                { item: "Milk", quantity: 171.4, unit: "ml" },
-                { item: "Water", quantity: 171.4, unit: "ml" }
+                { item: "Tea powder", "quantity": 1.5, "unit": "Gram" },
+                { item: "Jaggery powder", "quantity": 6, "unit": "Gram" },
+                { item: "Milk", "quantity": 15.3, "unit": "ml" },
+                { item: "Water", "quantity": 84.6, "unit": "ml" }
             ],
             steps: {
                 step1: "In a small pot, bring water to a boil. Add tea powder, grated ginger, crushed green cardamom, black pepper, and cloves. Boil for 5 minutes.",
@@ -564,25 +559,25 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://www.kannammacooks.com/wp-content/uploads/opos-carrot-beans-poriyal-recipe.jpg',
             ingredients: [
                 // Vegetables
-                { item: "Beans", "quantity": 40, "unit": "Gram" },
-                { item: "Carrot", "quantity": 34, "unit": "Gram" },
-                { item: "Onion", "quantity": 20, "unit": "Gram" },
+                { item: "Beans", "quantity": 12.9, "unit": "Gram" },
+                { item: "Carrot", "quantity": 11.1, "unit": "Gram" },
+                { item: "Onion", "quantity": 6.4, "unit": "Gram" },
                 
                 // Lentils and Pulses
-                { item: "Chana dal", "quantity": 1, "unit": "Gram" },
-                { item: "Urad dal", "quantity": 1, "unit": "Gram" },
+                { item: "Chana dal", "quantity": 0.22, "unit": "Gram" },
+                { item: "Urad dal", "quantity": 0.22, "unit": "Gram" },
                 
                 // Spices and Condiments
-                { item: "Green chili", "quantity": 1, "unit": "Gram" },
-                { item: "Mustard seeds", "quantity": 0.23, "unit": "Gram" },
-                { item: "Cumin seeds", "quantity": 0.11, "unit": "Gram" },
-                { item: "Coconut", "quantity": 23, "unit": "Gram" },
-                { item: "Oil", "quantity": 3, "unit": "Gram" },
+                { item: "Green chili", "quantity": 0.09, "unit": "Gram" },
+                { item: "Mustard seeds", "quantity": 0.07, "unit": "Gram" },
+                { item: "Cumin seeds", "quantity": 0.036, "unit": "Gram" },
+                { item: "Coconut", "quantity": 2.2, "unit": "Gram" },
+                { item: "Oil", "quantity": 0.92, "unit": "Gram" },
                 { item: "Turmeric powder", "quantity": 0.09, "unit": "Gram" },
                 { item: "Coriander powder", "quantity": 0.06, "unit": "Gram" },
-                { item: "Salt", "quantity": 1.3, "unit": "Gram" },
-                { item: "Curry leaves", "quantity": 0.17, "unit": "Gram" },
-                { item: "Hing", "quantity": 0.06, "unit": "Gram" }
+                { item: "Salt", "quantity": 0.4, "unit": "Gram" },
+                { item: "Curry leaves", "quantity": 0.05, "unit": "Gram" },
+                { item: "Asafoetida", "quantity": 0.018, "unit": "Gram" }
             ],
             steps: {
                 step1: "Heat oil in a pan. Add mustard seeds, cumin seeds, and hing. Sauté until the mustard seeds crackle.",
@@ -602,24 +597,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 { item: "Tomato", "quantity": 12.0, "unit": "Gram" },
         
                 // Lentils and Pulses
-                { item: "Urad dal", "quantity": 5.0, "unit": "Gram" },
-                { item: "Chana dal", "quantity": 15.0, "unit": "Gram" },
+                { item: "Urad dal", "quantity": 1.9, "unit": "Gram" },
+                { item: "Chana dal", "quantity": 1.45, "unit": "Gram" },
         
                 // Spices and Condiments
                 { item: "Groundnut Oil", "quantity": 5.2, "unit": "ml" },
-                { item: "Salt", "quantity": 1.28, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.62, "unit": "Gram" },
                 { item: "Red chilli", "quantity": 0.20, "unit": "Gram" },
-                { item: "Curry leaves", "quantity": 0.40, "unit": "Gram" },
-                { item: "Mustard seeds", "quantity": 0.20, "unit": "Gram" },
-                { item: "Cumin Seeds", "quantity": 0.20, "unit": "Gram" },
-                { item: "Coriander", "quantity": 1.80, "unit": "Gram" },
-                { item: "Ginger", "quantity": 0.40, "unit": "Gram" },
-                { item: "Garlic", "quantity": 0.40, "unit": "Gram" },
-                { item: "Green chili", "quantity": 0.20, "unit": "Gram" }
+                { item: "Curry leaves", "quantity": 0.19, "unit": "Gram" },
+                { item: "Mustard seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Coriander Leaves", "quantity": 0.87, "unit": "Gram" },
+                { item: "Ginger", "quantity": 0.19, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.19, "unit": "Gram" },
+                { item: "Green chili", "quantity": 0.09, "unit": "Gram" },
+                { item: "Tamrind", "quantity": 0.09, "unit": "Gram" }
             ],
             steps: {
                 step1: "Heat oil in a pan. Add mustard seeds, cumin seeds, and sauté until they crackle.",
-                step2: "Add chopped onions and sauté until translucent. Then add tomatoes and cook until they soften.",
+                step2: "Add chopped onions and sauté until translucent. Then add tomatoes, Tamrind and cook until they soften.",
                 step3: "Add garlic, ginger, green chili, and curry leaves. Sauté for a minute. Blend the mixture into a smooth paste and serve with your meal."
             }
         },
@@ -631,30 +627,338 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://i.ytimg.com/vi/BGpmdsNi5SI/maxresdefault.jpg',
             ingredients: [
                 // Vegetables
-                { item: "Onion", "quantity": 27.27, "unit": "Gram" },
-                { item: "Tomato", "quantity": 45.45, "unit": "Gram" },
-                { item: "Garlic", "quantity": 4.55, "unit": "Gram" },
+                { item: "Onion", "quantity": 11.6, "unit": "Gram" },
+                { item: "Tomato", "quantity": 19.4, "unit": "Gram" },
+                { item: "Garlic", "quantity": 1.9, "unit": "Gram" },
         
                 // Lentils and Pulses
-                { item: "Dal", "quantity": 45.45, "unit": "Gram" },
+                { item: "Toor Dal", "quantity": 19.4, "unit": "Gram" },
         
                 // Spices and Condiments
-                { item: "Green Chili", "quantity": 1.14, "unit": "Gram" },
-                { item: "Oil", "quantity": 6.82, "unit": "Gram" },
-                { item: "Mustard Seeds", "quantity": 0.23, "unit": "Gram" },
-                { item: "Cumin Seeds (Jeera)", "quantity": 0.23, "unit": "Gram" },
-                { item: "Urad Dal", "quantity": 0.23, "unit": "Gram" },
-                { item: "Salt", "quantity": 3.77, "unit": "Gram" },
-                { item: "Haldi Powder (Turmeric Powder)", "quantity": 0.045, "unit": "Gram" },
-                { item: "Ghee", "quantity": 2.38, "unit": "Gram" },
-                { item: "Curry Leaves", "quantity": 0.23, "unit": "Gram" },
-                { item: "Tamarind", "quantity": 1.82, "unit": "Gram" },
-                { item: "Water", "quantity": 220, "unit": "ml" }
+                { item: "Green Chili", "quantity": 0.48, "unit": "Gram" },
+                { item: "Oil", "quantity": 2.9, "unit": "Gram" },
+                { item: "Mustard Seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Cumin Seeds (Jeera)", "quantity": 0.09, "unit": "Gram" },
+                { item: "Urad Dal", "quantity": 0.09, "unit": "Gram" },
+                { item: "Salt", "quantity": 1.6, "unit": "Gram" },
+                { item: "Turmeric Powder", "quantity": 0.019, "unit": "Gram" },
+                { item: "Ghee", "quantity": 1.01, "unit": "Gram" },
+                { item: "Curry Leaves", "quantity": 0.09, "unit": "Gram" },
+                { item: "Tamarind", "quantity": 0.77, "unit": "Gram" },
+                { item: "Asafoetida", "quantity": 0.09, "unit": "Gram" },
+                { item: "Water", "quantity": 97, "unit": "ml" }
             ],
             steps:  {
                 step1: "Heat oil in a pan. Add mustard seeds, cumin seeds, and urad dal. Sauté until the mustard seeds crackle and the urad dal turns golden brown.",
                 step2: "Add chopped onions and minced garlic. Sauté until the onions are translucent. Then add chopped tomatoes, green chili, haldi powder, and salt. Cook until the tomatoes are soft.",
                 step3: "Add the soaked and drained dal, tamarind, and water. Cook until the dal is tender. Finish by stirring in ghee and curry leaves. Serve hot."
+            }
+        },
+        {
+            id: 19,
+            name: 'Tomato Curry',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://justhomemade.files.wordpress.com/2011/04/tomato-onion-gojju-top.jpg',
+            ingredients:  [
+                // Vegetables
+                { item: "Onion", "quantity": 9.16, "unit": "gram" },    // 5000 g / 546
+                { item: "Tomato", "quantity": 32.97, "unit": "gram" },  // 18000 g / 546
+        
+                // Spices and Condiments
+                { item: "Oil", "quantity": 2.75, "unit": "gram" },      // 1500 g / 546
+                { item: "Coconut", "quantity": 28.30, "unit": "gram" }, // 15450 g / 546
+                { item: "Red Chili", "quantity": 0.03, "unit": "gram" }, // 15 g / 546
+                { item: "Dhaniya Powder", "quantity": 0.73, "unit": "gram" }, // 400 g / 546
+                { item: "Mustard Seeds", "quantity": 0.09, "unit": "gram" }, // 50 g / 546
+                { item: "Methi Seeds", "quantity": 0.05, "unit": "gram" }, // 30 g / 546
+                { item: "Salt", "quantity": 1.47, "unit": "gram" },     // 800 g / 546
+                { item: "Fried Gram", "quantity": 1.83, "unit": "gram" }, // 1000 g / 546
+                { item: "Water", "quantity": 100.73, "unit": "ml" },    // 55000 ml / 546
+                { item: "Broken Cashew", "quantity": 0.55, "unit": "gram" } // 300 g / 546
+            ],
+            steps:  {
+                step1: "Heat the oil in a pan over medium heat. Add the mustard seeds and methi seeds, and let them splutter. Once the seeds start to pop, add the chopped onions and sauté until they turn golden brown and aromatic. Stir in the dhaniya powder and red chili, ensuring the spices are well integrated with the onions. This will create a flavorful base for the curry.",
+        
+        step2: "Add the chopped tomatoes to the pan and cook until they become soft and start to break down, releasing their juices. This should take about 5-7 minutes. Stir occasionally to prevent sticking. Add the salt and mix well, allowing the flavors to meld. Add water to the pan and bring the mixture to a simmer. Let it cook until it reaches a slightly thickened consistency, about 10 minutes.",
+        
+        step3: "Add the coconut, fried gram, and broken cashew to the curry. Stir everything together and cook for another 3-5 minutes until the coconut is well incorporated and the cashew pieces are slightly softened. The curry should have a rich and creamy texture, thanks to the coconut. Taste and adjust the seasoning if needed. Serve the tomato curry hot with rice or your choice of bread."
+            }
+        },
+        {
+            id: 20,
+            name: 'Coconut Rice',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.ticklingpalates.com/wp-content/uploads/2021/08/coconut-rice-recipe.jpg',
+            ingredients: [
+                // Spices and Condiments
+                { item: "Coconut Oil", "quantity": 3.66, "unit": "gram" },
+                { item: "Oil", "quantity": 3.66, "unit": "gram" },
+                { item: "Chana Dal", "quantity": 1.47, "unit": "gram" },
+                { item: "Urad Dal", "quantity": 1.47, "unit": "gram" },
+                { item: "Rice", "quantity": 40.29, "unit": "gram" },
+                { item: "Coconut", "quantity": 28.30, "unit": "gram" },
+                { item: "Salt", "quantity": 1.28, "unit": "gram" },
+                { item: "Milk", "quantity": 1.83, "unit": "ml" },
+                { item: "Curry Leaves", "quantity": 0.18, "unit": "gram" },
+                { item: "Cinnamon", "quantity": 0.02, "unit": "piece" },
+                { item: "Cloves", "quantity": 0.02, "unit": "piece" },
+                { item: "Cardamom", "quantity": 0.02, "unit": "piece" },
+                { item: "Mustard Seeds", "quantity": 0.09, "unit": "gram" },
+                { item: "Ghee", "quantity": 0.46, "unit": "gram" },
+                { item: "Water", "quantity": 84.35, "unit": "ml" }
+            ],
+            steps: {
+                step1: "Heat the coconut oil and regular oil in a large pan over medium heat. Add mustard seeds, cloves, cardamom, and chana dal, and sauté until the mustard seeds crackle and the dal turns golden brown. Add the urad dal and continue to sauté until it is slightly toasted.",
+                
+                step2: "Add the rice to the pan and stir for a minute to coat it with the spices. Then, add the coconut, salt, and curry leaves. Stir well to combine all the ingredients. Pour in the water and bring it to a boil. Reduce the heat to low, cover the pan, and let it simmer until the rice is cooked and the liquid is absorbed, about 15-20 minutes.",
+                
+                step3: "Once the rice is cooked, gently fluff it with a fork. Add the ghee and milk, and stir to incorporate them evenly into the rice. Let it sit covered for a few minutes to allow the flavors to meld. Serve the coconut rice hot, garnished with additional curry leaves if desired."
+            }
+        },
+        {
+            id: 21,
+            name: 'Veg Kurma',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.cookwithmanali.com/wp-content/uploads/2017/06/Veg-Kurma-500x500.jpg',
+            ingredients: [
+                // Grinding
+                { item: "Onion", "quantity": 9.2, "unit": "gram" },
+                { item: "Coriander Seeds", "quantity": 0.46, "unit": "gram" },
+                { item: "Cumin Seeds", "quantity": 0.09, "unit": "gram" },
+                { item: "Cardamom", "quantity": 0.01, "unit": "Piece" },
+                { item: "Cinnamon", "quantity": 0.01, "unit": "Piece" },
+                { item: "Cloves", "quantity": 0.01, "unit": "Piece" },
+                { item: "Cinnamon", "quantity": 0.02, "unit": "gram" },
+                { item: "Coconut", "quantity": 9.2, "unit": "gram" },
+                { item: "Cashew Nuts", "quantity": 0.73, "unit": "gram" },
+                { item: "Bengal gram", "quantity": 0.92, "unit": "gram" },
+                { item: "Green Chili", "quantity": 0.18, "unit": "gram" },
+                { item: "Coriander Leaves", "quantity": 0.0018, "unit": "Bunch" },
+                { item: "Mint Leaves", "quantity": 0.0018, "unit": "g" },
+                { item: "Turmeric Powder", "quantity": 0.01, "unit": "gram" },
+                { item: "Poppy Seeds)", "quantity": 0.05, "unit": "gram" },
+                { item: "Black Pepper", "quantity": 0.02, "unit": "gram" },
+        
+                // Tadka (Tempering)
+                { item: "Oil", "quantity": 1.5, "unit": "ml" },
+                { item: "Mustard Seeds", "quantity": 0.09, "unit": "gram" },
+                { item: "Curry Leaves", "quantity": 0.18, "unit": "gram" },
+                { item: "Onion", "quantity": 9.2, "unit": "gram" },
+                { item: "Tomato", "quantity": 5.5, "unit": "gram" },
+                { item: "Salt", "quantity": 0.92, "unit": "gram" },
+                { item: "Ghee", "quantity": 0.46, "unit": "ml" },
+                { item: "Water", "quantity": 460, "unit": "ml" }
+            ],
+            steps: {
+                step1: "Heat oil in a large pan over medium heat. Add mustard seeds and let them crackle. Add curry leaves and sauté for a few seconds until aromatic.",
+                step2: "Add finely chopped onions to the pan and cook until they turn golden brown. Next, add chopped tomatoes and cook until they become soft and mushy. Stir in the ground mixture of coriander seeds, cumin seeds, cardamom, cinnamon, cloves, chili powder, and poppy seeds. Cook for a few minutes until the spices release their aroma.",
+                step3: "Add the cashew nuts, green chili, and the vegetables of your choice. Cook for a few minutes until the vegetables start to soften. Pour in water and bring the mixture to a boil. Reduce the heat, cover the pan, and let it simmer until the vegetables are cooked through and the curry has thickened. Stir in ghee and garnish with coriander and mint leaves. Serve hot with rice or chapati."
+            }
+        },
+        {
+            id: 22,
+            name: 'Green Gram Dal',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.secondrecipe.com/wp-content/uploads/2022/12/moong-dal-curry.jpg',
+            ingredients: [
+                // Lentils and Pulses
+                { item: "Green Gram", "quantity": 10.91, "unit": "Gram" },
+                { item: "Rajma", "quantity": 1.82, "unit": "Gram" },
+                { item: "Karamani (Black-eyed Peas)", "quantity": 5.45, "unit": "Gram" },
+                
+                // Vegetables
+                { item: "Onion", "quantity": 5.45, "unit": "Gram" },
+                { item: "Tomato", "quantity": 9.09, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.91, "unit": "Gram" },
+                
+                // Spices and Condiments
+                { item: "Green Chili", "quantity": 0.09, "unit": "Gram" },
+                { item: "Red Chili Powder", "quantity": 0.036, "unit": "Gram" },
+                { item: "Dhaniya Powder", "quantity": 0.18, "unit": "Gram" },
+                { item: "Coriander Powder", "quantity": 0.09, "unit": "Gram" },
+                { item: "Oil", "quantity": 0.91, "unit": "ml" },
+                { item: "Mustard Seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.91, "unit": "Gram" },
+                { item: "Curry Leaves", "quantity": 0.18, "unit": "Gram" },
+                { item: "Coconut", "quantity": 7.27, "unit": "Gram" },
+        
+                // Liquids
+                { item: "Water", "quantity": 54.55, "unit": "ml" }
+            ],
+            steps:  {
+                step1: "Soak the green gram, rajma, and karamani in water for several hours or overnight. Drain the water before cooking.",
+        step2: "Heat oil in a large pan or pot. Add mustard seeds and cumin seeds. Sauté until the mustard seeds crackle. Add finely chopped onions and garlic. Cook until the onions become translucent. Add chopped tomatoes, green chili, and cook until the tomatoes turn soft.",
+        step3: "Stir in the red chili powder, dhaniya powder, and coriander powder. Mix well. Add the soaked and drained green gram, rajma, and karamani. Pour in the water and bring to a boil. Reduce heat and simmer until the dal and beans are cooked and tender. Season with salt and mix in curry leaves. Cook for a few more minutes. Stir in grated coconut just before serving to enhance the flavor. Serve hot with rice or rotis.",
+            }
+        },
+        {
+            id: 23,
+            name: 'Veg Kadai',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.tasteatlas.com/images/dishes/d24aa6fbf6024a2c94de28fadb965701.jpeg',
+            ingredients: [
+                // Vegetables
+                { item: "Onion", "quantity": 5.45, "unit": "Gram" },
+                { item: "Tomato", "quantity": 5.45, "unit": "Gram" },
+                { item: "Coconut", "quantity": 5.45, "unit": "Gram" },
+        
+                // Spices and Condiments
+                { item: "Coriander Seeds", "quantity": 0.18, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.09, "unit": "Gram" },
+                { item: "Fenugreek Seeds", "quantity": 0.018, "unit": "Gram" },
+                { item: "Pepper", "quantity": 0.036, "unit": "Gram" },
+                { item: "Red Chili", "quantity": 0.13, "unit": "Gram" },
+                { item: "Cashews", "quantity": 0.18, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 0.027, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.018, "unit": "Gram" },
+                { item: "Cardamom", "quantity": 0.009, "unit": "Gram" },
+                { item: "Khus Khus", "quantity": 0.018, "unit": "Gram" },
+                { item: "Star Anise", "quantity": 0.009, "unit": "Gram" },
+                { item: "Fennel Seeds", "quantity": 0.036, "unit": "Gram" },
+                { item: "Oil", "quantity": 1.82, "unit": "ml" },
+                { item: "Curd", "quantity": 1.82, "unit": "ml" },
+                { item: "Breadfruit", "quantity": 45.45, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.91, "unit": "Gram" }
+            ],
+            steps:  {
+                step1: "Grind together coconut, coriander seeds, cumin seeds, fenugreek seeds, pepper, red chili, cashews, cinnamon, cloves, cardamom, khus khus, star anise, and fennel seeds into a smooth paste with a little water. Set aside.",
+                step2: "Heat oil in a pan. Add chopped onions and sauté until they are translucent. Add chopped tomatoes and cook until they are soft.",
+                step3: "Add the ground paste to the pan and sauté for a few minutes until the raw smell disappears.",
+            }
+        },
+        {
+            id: 24,
+            name: 'Pulav',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.indianveggiedelight.com/wp-content/uploads/2020/04/cauliflower-pulao-instant-pot-featured.jpg',
+            ingredients: [
+                // Spices for Powder
+                { item: "Cinnamon", "quantity": 0.018, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.009, "unit": "Gram" },
+                { item: "Star Anise", "quantity": 0.009, "unit": "Gram" },
+                { item: "Stone Flower", "quantity": 0.009, "unit": "Gram" },
+                { item: "Fennel Seeds", "quantity": 0.027, "unit": "Gram" },
+                { item: "Bay Leaf", "quantity": 0.005, "unit": "piece" },
+                { item: "Coriander Seeds", "quantity": 0.036, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.073, "unit": "Gram" },
+                { item: "Nutmeg", "quantity": 0.005, "unit": "piece" },
+                { item: "Cardamom Powder", "quantity": 0.004, "unit": "piece" },
+        
+                // Spices for Tempering
+                { item: "Cinnamon", "quantity": 0.073, "unit": "Gram" },
+                { item: "Cardamom", "quantity": 0.054, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.054, "unit": "Gram" },
+                { item: "Star Anise", "quantity": 0.054, "unit": "Gram" },
+                { item: "Fennel Seeds", "quantity": 0.045, "unit": "Gram" },
+                { item: "Black Stone Flower", "quantity": 0.045, "unit": "Gram" },
+                { item: "Kasuri Methi", "quantity": 0.009, "unit": "Gram" },
+                { item: "Bay Leaf", "quantity": 0.018, "unit": "piece" },
+        
+                // Vegetables
+                { item: "Onion", "quantity": 9.05, "unit": "Gram" },
+                { item: "Oil", "quantity": 0.009, "unit": "ml" },
+                { item: "Tomato", "quantity": 7.25, "unit": "Gram" },
+                { item: "Turmeric Powder", "quantity": 0.054, "unit": "Gram" },
+                { item: "Ginger", "quantity": 0.73, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.73, "unit": "Gram" },
+                { item: "Green Chili", "quantity": 0.22, "unit": "Gram" },
+                { item: "Beans", "quantity": 14.49, "unit": "Gram" },
+                { item: "Carrot", "quantity": 14.49, "unit": "Gram" },
+                { item: "Potato", "quantity": 7.25, "unit": "Gram" },
+                { item: "Cauliflower", "quantity": 2.72, "unit": "Gram" },
+                { item: "Mint Leaves", "quantity": 0.009, "unit": "Gram" },
+                { item: "Coriander Leaves", "quantity": 0.0018, "unit": "Gram" },
+                { item: "Curd", "quantity": 0.0018, "unit": "ml" },
+                { item: "Rice", "quantity": 43.48, "unit": "Gram" },
+                { item: "Salt", "quantity": 1.54, "unit": "Gram" }
+            ],
+            steps:  {
+                step1: "Grind together cinnamon, cloves, star anise, stone flower, fennel seeds, bay leaf, coriander seeds, cumin seeds, nutmeg, and cardamom powder into a smooth powder. Set aside. Heat oil in a pan. Add cinnamon, cardamom, cloves, star anise, fennel seeds, black stone flower, kasuri methi, and bay leaf. Sauté for a few seconds until fragrant.",
+        step2: "Add chopped onions, ginger, garlic, and green chili. Sauté until the onions are golden brown. Add chopped tomatoes and turmeric powder. Cook until the tomatoes are soft and oil starts to separate.Add beans, carrot, potato, and cauliflower. Mix well and cook for a few minutes.",
+        step3: "Add the ground spice powder, mint leaves, and coriander leaves. Mix well. Add curd and rice. Mix gently and add water. Bring to a boil, then cover and cook on low heat until the rice and vegetables are tender. Add salt to taste. Serve hot with raita or pickle.",
+            }
+        },
+        {
+            id: 25,
+            name: 'Puliyogare',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.balancenutrition.in/images/receipe-img/1537555626_large.jpg',
+            ingredients: [
+                // Spices and Condiments
+                { item: "Tamarind", "quantity": 2.72, "unit": "Gram" },
+                { item: "Coriander Seeds", "quantity": 0.36, "unit": "Gram" },
+                { item: "Cumin Seeds", "quantity": 0.27, "unit": "Gram" },
+                { item: "Pepper", "quantity": 0.055, "unit": "Gram" },
+                { item: "Fenugreek Seeds", "quantity": 0.055, "unit": "Gram" },
+                { item: "Chana Dal", "quantity": 0.18, "unit": "Gram" },
+                { item: "Urad Dal", "quantity": 0.18, "unit": "Gram" },
+                { item: "Toor Dal", "quantity": 0.18, "unit": "Gram" },
+                { item: "Cinnamon", "quantity": 0.018, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.036, "unit": "piece" },
+                { item: "Star Anise", "quantity": 0.018, "unit": "piece" },
+                { item: "Black Stone Flower", "quantity": 0.009, "unit": "Gram" },
+                { item: "Cardamom", "quantity": 0.018, "unit": "piece" },
+                { item: "Nutmeg", "quantity": 0.0036, "unit": "piece" },
+                { item: "Red Chili (Dry)", "quantity": 0.27, "unit": "Gram" },
+                { item: "Dry Coconut", "quantity": 2.72, "unit": "Gram" },
+                { item: "Salt", "quantity": 1.54, "unit": "Gram" },
+                { item: "Oil", "quantity": 0.009, "unit": "ml" },
+                { item: "Mustard Seeds", "quantity": 0.009, "unit": "Gram" },
+                { item: "Curry Leaves", "quantity": 0.009, "unit": "Gram" },
+                { item: "Asafoetida", "quantity": 0.009, "unit": "Gram" }
+            ],
+            steps:  {
+                step1: "Soak tamarind in water and extract the juice. Set aside. Dry roast coriander seeds, cumin seeds, pepper, fenugreek seeds, chana dal, urad dal, toor dal, cinnamon, cloves, star anise, black stone flower, cardamom, nutmeg, red chili, and dry coconut until fragrant. Grind into a fine powder.",
+                step2: "Heat oil in a pan. Add mustard seeds and let them crackle. Add curry leaves and asafoetida. Add the tamarind extract, salt, and the prepared spice powder. Cook until the mixture thickens.",
+                step3: "Mix the tamarind paste with cooked rice. Adjust salt to taste. Serve hot."
+            }
+        },
+        {
+            id: 26,
+            name: 'Aloo Palya',
+            description: 'A classic South Indian dish featuring lentils cooked with tomatoes and spices for a flavorful meal.',
+            datePosted: 'March 11, 2024',
+            image: 'https://www.indianveggiedelight.com/wp-content/uploads/2017/07/potato-masala.jpg',
+            ingredients: [
+                // Vegetables
+                { item: "Onion", "quantity": 5.24, "unit": "Gram" },
+                { item: "Tomato", "quantity": 8.74, "unit": "Gram" },
+                { item: "Coconut", "quantity": 8.74, "unit": "Gram" },
+                
+                // Nuts
+                { item: "Cashew Nuts", "quantity": 0.524, "unit": "Gram" },
+                
+                // Spices and Condiments
+                { item: "Cinnamon", "quantity": 0.0175, "unit": "Gram" },
+                { item: "Cloves", "quantity": 0.0175, "unit": "Piece" },
+                { item: "Cardamom", "quantity": 0.0175, "unit": "Piece" },
+                { item: "Black Stone Flower", "quantity": 0.00874, "unit": "Gram" },
+                { item: "Star Anise", "quantity": 0.00874, "unit": "Piece" },
+                { item: "Kasuri Methi", "quantity": 0.00874, "unit": "Gram" },
+                { item: "Poppy Seeds", "quantity": 0.0262, "unit": "Gram" },
+                { item: "Fennel Seeds", "quantity": 0.0262, "unit": "Gram" },
+                { item: "Red Chili", "quantity": 0.0874, "unit": "Gram" },
+                { item: "Green Chili", "quantity": 0.0175, "unit": "Gram" },
+                { item: "Garlic", "quantity": 0.175, "unit": "Gram" },
+                { item: "Potatoes", "quantity": 31.5, "unit": "Gram" },
+                { item: "Flat Bean", "quantity": 5.24, "unit": "Gram" },
+                { item: "Salt", "quantity": 0.629, "unit": "Gram" },
+                { item: "Turmeric Powder", "quantity": 0.0262, "unit": "Gram" },
+                { item: "Oil", "quantity": 1.75, "unit": "Milliliter" },
+                { item: "Mustard Seeds", "quantity": 0.0612, "unit": "Gram" }
+            ],
+            steps:  {
+                step1: "Chop the onions and tomatoes finely. Peel and cube the potatoes. Mince the garlic. Heat oil in a pan over medium heat. Add mustard seeds and allow them to splutter. Add cinnamon, cloves, cardamom, stone flower, star anise, poppy seeds, and fennel seeds. Sauté for a few seconds until fragrant.",
+                step2: "Add chopped onions and minced garlic to the pan. Sauté until the onions turn translucent. Add chopped tomatoes, red chili powder, turmeric powder, and salt. Cook until the tomatoes soften.",
+                step3: "Add potato cubes and hyacinth beans. Stir well to coat them with the spices. Cover the pan and cook on low heat until the potatoes and beans are tender. Stir occasionally to prevent sticking. Add crushed cashew nuts, kasuri methi, and green chili. Mix well and cook for another minute. Garnish with freshly grated coconut and stir to combine. Serve the Aloo Palya hot as a side dish with rice or roti.",
             }
         }
     ];
