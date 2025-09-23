@@ -25,6 +25,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -471,7 +472,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(29, 28, 28, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -984,7 +985,7 @@ section {
 
 /* Prevent background dark overlay on hover */
 .portfolio .portfolio-wrap::before {
-  opacity: 2 !important;
+  opacity: 0.5 !important;
 }
 
 .portfolio .portfolio-wrap:hover img {

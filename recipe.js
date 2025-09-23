@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const recipes = [
         {
             id: 1,
-            name: 'Kalyana Rasam',
+            name: ' Rasam',
             image: 'https://vismaifood.com/storage/app/uploads/public/2f7/20d/779/thumb__1200_0_0_0_auto.jpg',
             ingredients: [
                 { item: "Toor Dal", "quantity": 5, "unit": "gram" },
@@ -25,7 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 { item: "Water", "quantity": 140, "unit": "ml" },
                 { item: "Tamarind", "quantity": 1.4, "unit": "gram" }
             ],
-            prep: {
+            steps: {
+                step1: 'Place a large heavy bottom vessel over medium heat and add Oil. Once the oil is hot, add Mustard seed and Urad Dal. Sauté until the mustard seeds begin to splutter. Now, add Kashmiri Chilli and the hand-pounded garlic. Sauté until the raw smell disperses. Stir and add Curry Leaves and green chillies over the mixture followed by chopped tomatoes. Cook over medium-high heat until the tomatoes turn mushy.',
+                step2: 'Pour in the dissolved tamrind water and bring the mixture to boil and then add turmeric. Add in Salt, evenly throughout the mixture. Add the cooked toor dal to the boiling mixture. Once the Rasam starts boiling, add Water to achieve desired consistency and bring it to a final boil.',
+                step3: 'Turn off the stove. Sprinkle the hand-pounded pepper and jeera over the rasam and add the remaining curry leaves, coriander leaves, grated coconut, asafoetida, and Jaggery for a hint of sweetness. Mix everything well and quickly close the lid. Allow the rasam to rest for 5 minutes to enhance the flavors. Rasam is ready to be served.'
+            },
+             prep: {
                 prep1: 'Wash the Toor Dal thoroughly and in a pressure cooker',
                 prep2: 'Add the washed toor dal, turmeric with Water (3 times of dal quantity) to cook for 3 whistles and keep it aside.',
                 prep3: 'Dissolve tamrind in Water (3 times of tamrind quantity) and keep it aside.',
@@ -35,11 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 prep7: 'Coarsely grind pepper, jeera and keep it aside.',
                 prep8: 'Chop coriander leaves and grate coconut and keep it aside.'
             },
-            steps: {
-                step1: 'Place a large heavy bottom vessel over medium heat and add Oil. Once the oil is hot, add Mustard seed and Urad Dal. Sauté until the mustard seeds begin to splutter. Now, add Kashmiri Chilli and the hand-pounded garlic. Sauté until the raw smell disperses. Stir and add Curry Leaves and green chillies over the mixture followed by chopped tomatoes. Cook over medium-high heat until the tomatoes turn mushy.',
-                step2: 'Pour in the dissolved tamrind water and bring the mixture to boil and then add turmeric. Add in Salt, evenly throughout the mixture. Add the cooked toor dal to the boiling mixture. Once the Rasam starts boiling, add Water to achieve desired consistency and bring it to a final boil.',
-                step3: 'Turn off the stove. Sprinkle the hand-pounded pepper and jeera over the rasam and add the remaining curry leaves, coriander leaves, grated coconut, asafoetida, and Jaggery for a hint of sweetness. Mix everything well and quickly close the lid. Allow the rasam to rest for 5 minutes to enhance the flavors. Rasam is ready to be served.'
-            }
         },
     ];
 
@@ -73,38 +73,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const modalBody = document.querySelector('#recipeModal .modal-body');
 
         modalTitle.innerHTML = `
-            <div class="mod-div">
-                ${recipe.name}
-                <label id="people-label" for="people-input" style="font-size: 18px;">Number of People:</label>
-                <input type="number" id="people-input" class="input-form form-control" placeholder="Enter" min="1" value="1">
-                <button id="apply-people-btn" class="btn btn-success btn-sm" style="margin-left: 8px;">Enter</button>
+    <div class="mod-div">
+        ${recipe.name}
+        <label id="people-label" for="people-input" style="font-size: 18px;">Number of People:</label>
+        <input type="number" id="people-input" class="input-form form-control" placeholder="Enter" min="1" value="1">
+        <button id="apply-people-btn" class="btn btn-success btn-sm" style="margin-left: 8px;">Enter</button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+`;
 
-                <select id="translate-recipe" class="form-select form-select-sm" style="width:auto; margin-left:10px;">
-    <option value="">Translate</option>
-    <option value="en">English</option>
-    <option value="hi">Hindi</option>
-    <option value="ta">Tamil</option>
-    <option value="te">Telugu</option>
-    <option value="kn">Kannada</option>
-    <option value="ml">Malayalam</option>
-</select>
-
-
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-        `;
 
         modalBody.innerHTML = `
             <div class="mod-img-div">
                 <img src="${recipe.image}" class="mod-img mb-3" alt="${recipe.name}">
             </div>
 
-            <div class="preparation">
-                <h6 class="mt-4 mb-3">Pre-preparation:</h6>
-                <ul>
-                    ${Object.values(recipe.prep).map(step => `<li>${step}</li>`).join('')}
-                </ul>
-            </div>
+            
 
             <div class="mb-4">
                 <h5 class="mt-4 mb-3">Ingredients:</h5>
@@ -128,6 +112,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         `).join('')}
                     </tbody>
                 </table>
+            </div>
+
+            <div class="preparation">
+                <h6 class="mt-4 mb-3">Pre-preparation:</h6>
+                <ul>
+                    ${Object.values(recipe.prep).map(step => `<li>${step}</li>`).join('')}
+                </ul>
             </div>
 
             <div class="instructions">
@@ -174,26 +165,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         document.getElementById('apply-people-btn').addEventListener('click', updateIngredients);
 
-        // ✅ Translate dropdown listener
-        const translateDropdown = document.getElementById('translate-recipe');
-        translateDropdown.addEventListener('change', () => {
-            const lang = translateDropdown.value;
-            if (!lang) return;
-
-            const elementsToTranslate = modalBody.querySelectorAll("h5, h6, p, li, td, th");
-            elementsToTranslate.forEach(el => {
-                translateText(el.innerText, lang, (translated) => {
-                    el.innerText = translated;
-                });
-            });
-
-            // ✅ Translate only the recipe name span
-const recipeNameSpan = document.getElementById('recipe-name');
-translateText(recipe.name, lang, (translated) => {
-    recipeNameSpan.textContent = translated;
-});
-
-        });
 
         recipeModal.show();
         updateIngredients();
