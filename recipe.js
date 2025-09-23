@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { item: "Jeera", "quantity": 0.44, "unit": "gram" },
                 { item: "Jaggery", "quantity": 0.2, "unit": "gram" },
                 { item: "Salt", "quantity": 1.62, "unit": "gram" },
-                { item: "Groundnut Oil", "quantity": 1.3, "unit": "ml" },
+                { item: "Oil", "quantity": 1.3, "unit": "ml" },
                 { item: "Water", "quantity": 140, "unit": "ml" },
                 { item: "Tamarind", "quantity": 1.4, "unit": "gram" }
             ],
@@ -31,8 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 step3: 'Turn off the stove. Sprinkle the hand-pounded pepper and jeera over the rasam and add the remaining curry leaves, coriander leaves, grated coconut, asafoetida, and Jaggery for a hint of sweetness. Mix everything well and quickly close the lid. Allow the rasam to rest for 5 minutes to enhance the flavors. Rasam is ready to be served.'
             },
              prep: {
-                prep1: 'Wash the Toor Dal thoroughly and in a pressure cooker',
-                prep2: 'Add the washed toor dal, turmeric with Water (3 times of dal quantity) to cook for 3 whistles and keep it aside.',
+                prep1: 'Wash the Toor Dal thoroughly and in a pressure cooker Add the washed toor dal, turmeric with Water (3 times of dal quantity) to cook for 3 whistles and keep it aside.',
                 prep3: 'Dissolve tamrind in Water (3 times of tamrind quantity) and keep it aside.',
                 prep4: 'Cut green chillies and keep it aside.',
                 prep5: 'Finely chop Tomatoes and keep it aside.',
