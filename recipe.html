@@ -96,7 +96,26 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- ✅ Translation Helper (must come before recipe.js) -->
+    <script type="text/javascript">
+    function translateText(text, targetLang, callback) {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
+        fetch(url)
+            .then(res => res.json())
+            .then(data => {
+                const translated = data[0].map(item => item[0]).join("");
+                callback(translated);
+            })
+            .catch(err => console.error("Translation error:", err));
+    }
+    </script>
+
+    <!-- Your recipe logic -->
     <script src="./recipe.js"></script>
+</body>
+</html>
+
 </body>
 
 </html>
